@@ -12,11 +12,11 @@
 		2EE0DB1A1BBDF10300BE140F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE0DB191BBDF10300BE140F /* Assets.xcassets */; };
 		2EE0DB1D1BBDF10300BE140F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE0DB1B1BBDF10300BE140F /* LaunchScreen.storyboard */; };
 		2EE0DB3A1BBE5DE200BE140F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0DB331BBE5DE200BE140F /* Player.swift */; settings = {ASSET_TAGS = (); }; };
-		2EE0DB3B1BBE5DE200BE140F /* GameplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0DB351BBE5DE200BE140F /* GameplayViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		2EE0DB3C1BBE5DE200BE140F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0DB361BBE5DE200BE140F /* StartViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		2EE0DB3D1BBE5DE200BE140F /* CALayer+Rotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0DB381BBE5DE200BE140F /* CALayer+Rotate.swift */; settings = {ASSET_TAGS = (); }; };
 		2EE0DB3E1BBE5DE200BE140F /* UIColor+Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0DB391BBE5DE200BE140F /* UIColor+Application.swift */; settings = {ASSET_TAGS = (); }; };
 		2EE0DB401BBE5E9600BE140F /* NSTimeInterval+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0DB3F1BBE5E9600BE140F /* NSTimeInterval+Display.swift */; settings = {ASSET_TAGS = (); }; };
+		2EE0DB421BBE63EE00BE140F /* GameplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0DB411BBE63EE00BE140F /* GameplayViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +27,11 @@
 		2EE0DB1C1BBDF10300BE140F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EE0DB1E1BBDF10300BE140F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EE0DB331BBE5DE200BE140F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		2EE0DB351BBE5DE200BE140F /* GameplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayViewController.swift; sourceTree = "<group>"; };
 		2EE0DB361BBE5DE200BE140F /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		2EE0DB381BBE5DE200BE140F /* CALayer+Rotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Rotate.swift"; sourceTree = "<group>"; };
 		2EE0DB391BBE5DE200BE140F /* UIColor+Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Application.swift"; sourceTree = "<group>"; };
 		2EE0DB3F1BBE5E9600BE140F /* NSTimeInterval+Display.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimeInterval+Display.swift"; sourceTree = "<group>"; };
+		2EE0DB411BBE63EE00BE140F /* GameplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				2EE0DB361BBE5DE200BE140F /* StartViewController.swift */,
-				2EE0DB351BBE5DE200BE140F /* GameplayViewController.swift */,
+				2EE0DB411BBE63EE00BE140F /* GameplayViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -173,11 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EE0DB421BBE63EE00BE140F /* GameplayViewController.swift in Sources */,
 				2EE0DB3A1BBE5DE200BE140F /* Player.swift in Sources */,
 				2EE0DB3C1BBE5DE200BE140F /* StartViewController.swift in Sources */,
 				2EE0DB131BBDF10300BE140F /* AppDelegate.swift in Sources */,
 				2EE0DB401BBE5E9600BE140F /* NSTimeInterval+Display.swift in Sources */,
-				2EE0DB3B1BBE5DE200BE140F /* GameplayViewController.swift in Sources */,
 				2EE0DB3E1BBE5DE200BE140F /* UIColor+Application.swift in Sources */,
 				2EE0DB3D1BBE5DE200BE140F /* CALayer+Rotate.swift in Sources */,
 			);

@@ -9,11 +9,12 @@
 import Foundation
 
 class Player {
-  var name: String
-  var score: Int = 0
-  var ready: Bool = false
-  
-  init(name: String) {
-    self.name = name
-  }
+  /* 
+   -- Implementation here! --
+
+  Players have 3 properties:
+      - name
+      - ready
+      - score
+  */
 }
